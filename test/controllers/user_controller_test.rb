@@ -4,7 +4,7 @@ class UserControllerTest < ActionDispatch::IntegrationTest
   test "should get signup" do
     get signup_path
     assert_response :success
-    assert_serect "title", full_title("Signup")
+    assert_select "title", full_title("Sign Up")
   end
 
 end
