@@ -9,5 +9,6 @@ class ActiveSupport::TestCase
   # in alphabetical order.
   fixtures :all
 
+  include ActiveSupport::TestCase
   # Add more helper methods to be used by all tests here...
 end
